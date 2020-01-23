@@ -6,4 +6,4 @@ docker build -t valgrind_test . \
 docker run --name leak_test --rm -ti \
 	-v $(pwd)/to_test:/to_test valgrind_test \
 
-open valgrind-out.txt
+# open valgrind-out.txt
