@@ -1,4 +1,0 @@
-1 - Install Docker running install_docker.sh
-2 - Copy all your files including the main.c into ./to_test
-3 - Set the compilation rule into Dockerfile
-4 - Execute valgrind.sh
