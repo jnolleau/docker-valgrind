@@ -1,2 +1,3 @@
 to_test/*
+!to_test/readme
 .DS_Store
