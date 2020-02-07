@@ -1,7 +1,12 @@
-1 - Install Docker running install_docker.sh
+# Valgrind installed over a Docker container
+## In order to eliminate some false positives
 
-2 - Copy all your files including the main.c into ./to_test
+1. Install Docker running install_docker.sh
 
-3 - Set the compilation rules into compile_project.sh
+2. Copy all your files including the main.c into ./to_test
 
-4 - Execute valgrind.sh
+3. Set the compilation rules into compile_project.sh
+
+4. Execute valgrind.sh
+
+Feel free to mail me critics and ideas to improve functionalities 
