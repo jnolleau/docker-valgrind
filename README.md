@@ -1,5 +1,5 @@
 # Valgrind installed over a Docker container
-## In order to eliminate some false positives
+## In order to eliminate some false positives while testing leaks
 
 1. Install Docker running install_docker.sh
 
