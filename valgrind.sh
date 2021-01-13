@@ -1,3 +1,10 @@
+#!/bin/bash
+cp ../ft_containers/List.ipp to_test/
+cp ../ft_containers/List.hpp to_test/
+cp ../ft_containers/main.cpp to_test/
+
+
+
 # Generate a new image in .
 docker build -t valgrind_test . \
 

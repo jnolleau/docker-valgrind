@@ -6,6 +6,7 @@ RUN apt-get upgrade -y
 RUN apt-get install build-essential -y
 RUN apt-get install manpages-dev
 RUN apt-get install -y valgrind
+RUN apt-get install -y clang
 RUN apt-get install -y vim
 
 # Prepare test environment
