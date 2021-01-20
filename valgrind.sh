@@ -1,7 +1,16 @@
 #!/bin/bash
-cp ../ft_containers/List.ipp to_test/
-cp ../ft_containers/List.hpp to_test/
-cp ../ft_containers/main.cpp to_test/
+
+
+
+# # List sources
+# cp ../ft_containers/list/list.ipp to_test/
+# cp ../ft_containers/list/*.hpp to_test/
+# cp ../ft_containers/list/main.cpp to_test/
+
+# # Vector sources
+cp ../ft_containers/vector/*.hpp to_test/
+cp ../ft_containers/vector/main.cpp to_test/
+
 
 
 

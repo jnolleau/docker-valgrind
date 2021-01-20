@@ -27,6 +27,9 @@ flags="-Wall -Wextra -Werror"
 # Go into test folder in container
 cd /test
 
+# Rm all files already present into /test
+# rm -rf *
+
 # Run compilation
 if [ $makefile = "yes" ]
 then
