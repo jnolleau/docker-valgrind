@@ -14,6 +14,9 @@ exec="./a.out"
 # Choose compilator
 compilator="clang++"
 
+# List here all the includes dir
+includes="-I./includes"
+
 # List here all the files you want to compile, separated by space
 files_to_test="main.cpp"
 
@@ -35,7 +38,7 @@ if [ $makefile = "yes" ]
 then
 make
 else
-$compilator -g $flags $files_to_test 
+$compilator -g $flags $files_to_test $includes -o $exec
 fi
 
 # Run valgrind test

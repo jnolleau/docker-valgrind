@@ -1,8 +1,15 @@
 #!/bin/bash
 
+# # to_test directory cleaning
+rm -rf to_test/*
 
 
-# # List sources
+# ========= SOURCES ======== #
+# ========================== #
+
+# # Includes
+cp -rf ../ft_containers/includes to_test/
+
 # cp ../ft_containers/list/list.ipp to_test/
 # cp ../ft_containers/list/*.hpp to_test/
 # cp ../ft_containers/list/main.cpp to_test/
@@ -12,7 +19,8 @@ cp ../ft_containers/vector/*.hpp to_test/
 cp ../ft_containers/vector/main.cpp to_test/
 
 
-
+# ========= DOCKER ========= #
+# ========================== #
 
 # Generate a new image in .
 docker build -t valgrind_test . \
